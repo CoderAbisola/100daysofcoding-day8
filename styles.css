@@ -1,0 +1,29 @@
+.myAI{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    height: 95vh;
+}
+
+input {
+    width: 300px;
+    padding: 10px 15px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+  
+.chatbox{
+    border: 2px solid #706e6e;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    height: 100%;
+    width: 85%;
+    background-color: #ddd1d1;
+    padding: 10px;
+}
+
+.chatForm{
+    justify-self: center;
+}
