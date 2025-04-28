@@ -2,7 +2,7 @@ const form = document.getElementById("chatForm");
 const input = document.getElementById("question");
 const chatBox = document.getElementById("chatbox");
 
-const OPENROUTER_API_KEY = "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";
+const OPENROUTER_API_KEY = "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";
 
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
